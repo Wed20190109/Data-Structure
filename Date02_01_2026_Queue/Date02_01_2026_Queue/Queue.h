@@ -23,9 +23,7 @@ void QueueInit(Queue* pq) ;
 
 void QueuePush(Queue* pq, QDataType x);
 
-
 void QueuePop(Queue* pq);
-
 
 QDataType GetQueueFront(Queue* pq);
 
@@ -35,5 +33,6 @@ void QueueDestroy(Queue* pq);
 
 void QueuePrint(Queue* pq);
 
+void QueueEmpty(Queue* pq);
 
-
+int QueueSize(Queue* pq);
