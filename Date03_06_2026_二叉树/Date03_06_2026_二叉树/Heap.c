@@ -8,6 +8,13 @@ void HPInit(HP* php)
 	php->size = 0;
 }
 
+void Swap(HeapDataType* a, HeapDataType* b)
+{
+	HeapDataType temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
 void HPPush(HP* php, HeapDataType x)
 {
 	assert(php);
@@ -25,16 +32,23 @@ void HPPush(HP* php, HeapDataType x)
 	}
 	php->a[php->size] = x;
 	php->size++;
+
+	shiftup(php->a, php->size - 1);
 }
 
-void shiftup(HP* a, int child)
+void pop(HP* php)
+{
+
+};
+
+void shiftup(HeapDataType*a, int child)
 {
 	int parent = (child - 1) / 2;
-	while (parent>=0)
+	while (child>0)
 	{
 		if (a[child] < a[parent])
 		{
-			Swap(&a[child], a[parent]);
+			Swap(&a[child], &a[parent]);
 			child = parent;
 			parent = (child - 1) / 2;
 
@@ -46,3 +60,5 @@ void shiftup(HP* a, int child)
 	}
 
 }
+
+void shiftdown();
