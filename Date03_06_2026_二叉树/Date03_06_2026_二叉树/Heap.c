@@ -61,4 +61,27 @@ void shiftup(HeapDataType*a, int child)
 
 }
 
-void shiftdown();
+void shiftdown(HeapDataType* a, int size, int parent)
+{
+	int child = parent * 2 + 1;
+	while (child < size)//判断孩子下标是否小于size最大下标
+	{
+		if (child + 1 < size && a[child + 1] < a[child])//如果右孩子存在，并且右孩子比左孩子小，那么就让child指向右孩子
+		{
+			++child;
+		}
+
+		if (a[child] < a[parent])
+		{
+
+			Swap(&a[child], &a[parent]);
+			parent = child;//原child位置的元素已经交换到parent位置了，所以parent下标要更新为child
+			child = parent * 2 + 1;//继续寻找下一层的孩子
+		}
+		else
+		{
+			break;
+		}
+	}
+};
+
