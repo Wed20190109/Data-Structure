@@ -14,3 +14,9 @@ typedef struct Heap
 void HPInit();
 void HPDestroy();
 void HPPush();
+void HPPop();
+void shiftupMin(HeapDataType* a, int child);
+void shiftdown(HeapDataType* a, int size, int parent);
+void HPTop(HP* php, HeapDataType* x);
+void Swap(HeapDataType* a, HeapDataType* b);
+void HPEmpty(HP* php);

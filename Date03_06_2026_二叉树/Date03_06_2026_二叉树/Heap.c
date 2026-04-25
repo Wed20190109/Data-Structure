@@ -38,10 +38,14 @@ void HPPush(HP* php, HeapDataType x)
 
 void pop(HP* php)
 {
-
+	assert(php);
+	assert(php->size > 0);
+	Swap(&php->a[0], &php->a[php->size - 1]);
+	php->size--;
+	shiftdown(php->a, php->size, 0);
 };
 
-void shiftup(HeapDataType*a, int child)
+void shiftupMin(HeapDataType* a, int child)//child是新插入元素的下标
 {
 	int parent = (child - 1) / 2;
 	while (child>0)
@@ -51,7 +55,6 @@ void shiftup(HeapDataType*a, int child)
 			Swap(&a[child], &a[parent]);
 			child = parent;
 			parent = (child - 1) / 2;
-
 		}
 		else
 		{
@@ -73,7 +76,6 @@ void shiftdown(HeapDataType* a, int size, int parent)
 
 		if (a[child] < a[parent])
 		{
-
 			Swap(&a[child], &a[parent]);
 			parent = child;//原child位置的元素已经交换到parent位置了，所以parent下标要更新为child
 			child = parent * 2 + 1;//继续寻找下一层的孩子
@@ -85,3 +87,14 @@ void shiftdown(HeapDataType* a, int size, int parent)
 	}
 };
 
+void HPTop(HP* php)
+{
+	assert(php);
+	return php->a[0];
+}
+
+void HPEmpty(HP* php)
+{
+	assert(php);
+	return php->size == 0;
+}
