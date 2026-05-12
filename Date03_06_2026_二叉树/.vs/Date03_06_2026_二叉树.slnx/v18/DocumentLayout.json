@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
               "ToolTip": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
               "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-25T02:35:35.479Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-26T08:16:55.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T08:16:55.636Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-26T08:16:30.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T08:16:30.524Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Source.c",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAAEEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-06T08:46:46.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T08:46:46.823Z"
             }
           ]
         }
