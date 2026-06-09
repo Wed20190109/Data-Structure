@@ -1,12 +1,12 @@
 #include "Heap.h"
 
-
 //降序建小堆
 //升序建大堆
 
 void HeapSort(int* a, int n)
 //排序原理:先建好堆，然后堆头和堆尾互换，再缩减未排序的堆里元素的范围
 { 
+
 	for (int i = 0; i < n; i++)
 	{
 		shiftupMin(a, i);
@@ -31,7 +31,7 @@ void Test_sort()
 	}
 };
 
-int main()
-{
-	Test_sort();
-}
+//int main()
+//{
+//	Test_sort();
+//}
