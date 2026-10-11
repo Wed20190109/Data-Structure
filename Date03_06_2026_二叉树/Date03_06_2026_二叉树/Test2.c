@@ -44,7 +44,7 @@ TreeNode* createnode()
 	return node1;
 }
 
-void preorder(TreeNode* root)
+void preorder(TreeNode* root)//前序遍历
 {
 	if (root == NULL)
 	{
@@ -56,7 +56,7 @@ void preorder(TreeNode* root)
 
 }
 
-void inorder(TreeNode* root)
+void inorder(TreeNode* root)//中序遍历
 {
 	if (root == NULL)
 	{
@@ -69,7 +69,7 @@ void inorder(TreeNode* root)
 
 }
 
-void lastorder(TreeNode* root)
+void lastorder(TreeNode* root)//后序遍历
 {
 	if (root == NULL)
 	{
@@ -87,9 +87,14 @@ void lastorder(TreeNode* root)
 int main()
 {
 	TreeNode* root = createnode();
+	printf("This is preorder\n");
 	preorder(root);
 	printf("\n");
+	printf("This is inorder\n");
+
 	inorder(root);
 	printf("\n");
+	printf("This is lastorder\n");
+
 	lastorder(root);
 }
