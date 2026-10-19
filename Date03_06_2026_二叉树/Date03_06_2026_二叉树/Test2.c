@@ -110,6 +110,7 @@ int TreeLeafSize(TreeNode* root)//求叶子节点个数
 	return TreeLeafSize(root->left) + TreeLeafSize(root->right);
 }
 
+
 int TreeHight(TreeNode* root)
 {
 	if (root == NULL)
@@ -120,12 +121,21 @@ int TreeHight(TreeNode* root)
 	{
 		return 1;
 	}
-	int leftNum = TreeHight(root->left);
-	int rightNum = TreeHight(root->right);
+	int leftNum = TreeHight(root->left);//不用个变量来记录而直接return递归的话会产生巨量的重复计算
+	int rightNum = TreeHight(root->right);//
 
 	return leftNum > rightNum ? leftNum + 1 : rightNum + 1;
 	//return TTreeHight(root->left)>
 }
+
+int TreeKthSize(TreeNode*root)
+{
+	if (root == NULL)
+	{
+		return 0;
+	}
+}
+
 
 int main()
 {
