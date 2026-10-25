@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|solutionrelative:Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|solutionrelative:Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|solutionrelative:Date03_06_2026_\u4E8C\u53C9\u6811\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3E7B475B-D5C2-405A-92F1-B971B10D3EE7}|Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811.vcxproj|solutionrelative:Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,31 +27,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Test2.c",
-              "DocumentMoniker": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c",
-              "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c",
-              "ToolTip": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c",
-              "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test2.c",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAqwIcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-08T09:06:48.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Test.c",
-              "DocumentMoniker": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
-              "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
-              "ToolTip": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
-              "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Test.c",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-06-09T12:32:05.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Heap.c",
               "DocumentMoniker": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c",
               "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c",
@@ -67,11 +34,12 @@
               "RelativeToolTip": "Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.c",
               "ViewState": "AgIAAI0AAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-26T08:16:55.636Z"
+              "WhenOpened": "2026-03-26T08:16:55.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Heap.h",
               "DocumentMoniker": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.h",
               "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Heap.h",
@@ -83,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Codes\\Data-Structure\\Date03_06_2026_\u4E8C\u53C9\u6811\\Date03_06_2026_\u4E8C\u53C9\u6811\\Source.c",
               "RelativeDocumentMoniker": "Date03_06_2026_\u4E8C\u53C9\u6811\\Source.c",
