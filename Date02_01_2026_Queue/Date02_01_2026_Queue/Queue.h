@@ -19,7 +19,7 @@ typedef struct Queue
 }Queue;
 
 
-void QueueInit(Queue* pq) ;
+void QueueInit(Queue* pq) ;//pq是point to quque，意为指向queue的指针
 
 void QueuePush(Queue* pq, QDataType x);
 
