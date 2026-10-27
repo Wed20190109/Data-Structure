@@ -15,11 +15,18 @@ void StackDestroy(ST* ps)
 	ps->capacity = 0;
 }
 
-void StackPush(ST* ps, STDataType x) {
+void StackPush(ST* ps, STDataType x) 
+{
+	/*
+	各种数据结构的Push都是一个路子
+	*/
 	assert(ps);
-	if (ps->top == ps->capacity) {
+	if (ps->top == ps->capacity) //判断当前量是否达到容量上限capacity
+	{
 		STDataType* pNew = (STDataType*)realloc(ps->a, sizeof(STDataType) * ps->capacity * 2);
-		if (pNew != NULL) {
+		
+		if (pNew != NULL) //依据pNew的返回值判断是否扩容成功
+		{
 			ps->a = pNew;
 			ps->capacity *= 2;
 		}
